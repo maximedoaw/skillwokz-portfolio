@@ -198,7 +198,7 @@ export function ProjectCard({ project, index }) {
             href={project.liveUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white text-center py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-medium"
+            className="flex-1 bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-blue-600 text-white text-center py-3 px-4 rounded-lg flex items-center justify-center gap-2 font-medium"
             whileHover={{
               scale: 1.05,
               boxShadow: "0 10px 25px -5px rgba(16, 185, 129, 0.4)"
