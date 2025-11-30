@@ -6,11 +6,11 @@ export function Hero() {
   };
 
   return (
-    <section className="mt-10 min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
+    <section className=" min-h-screen mt-13 flex items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 ">
         <div className="max-w-4xl mx-auto">
           {/* Avatar/Badge */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-green-500 to-green-600 p-1">
